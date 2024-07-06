@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+                   <!-- Font Awesome Library -->
+                   <link rel="stylesheet" href="all.min.css">
+                   <link rel="stylesheet" href="font-awesome.min.css">
+                   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+                           <!-- Render All Elements  Normally  -->
+                   <link rel="stylesheet" href="normalize.css">
+                           <!-- Main template css file -->
+                   <link rel="stylesheet" href="dashboard.css"> 
+               
+                   <!-- Google fonts -->
+                   <link rel="preconnect" href="https://fonts.googleapis.com">
+                   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                   <link href="https://fonts.googleapis.com/css2?family=Cairo&family=Open+Sans:wght@400;700&family=Playfair+Display:wght@900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Quicksand:wght@400;500;600;700&family=Work+Sans:wght@200;300;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="side">
+                <h3>Mohamed</h3>
+                <ul>
+                <li class="active"><a  href="main.html"><i class="fa-regular fa-chart-bar fa-fw"></i><span>dashboard</span></a></li>
+           
+                <li><a href="setting.html"><i class="fa-solid fa-gear fa-fw"></i><span>setting</span></a></li>
+                <li><a href="profile.html"><i class="fa-regular fa-user fa-fw"></i><span>profile</span></a></li>
+                <li><a href="projects.html"><i class="fa-solid fa-diagram-project fa-fw"></i><span>projects</span></a></li>
+                <li><a href="courses.html"><i class="fa-solid fa-graduation-cap fa-fw"></i><span>courses</span></a></li>
+                <li><a href="friends.html"><i class="fa-regular fa-circle-user fa-fw"></i><span>friends</span></a></li>
+                <li><a href="files.html"><i class="fa-regular fa-file fa-fw"></i><span>files</span></a></li>
+                <li><a href="plans.html"><i class="fa-regular fa-credit-card fa-fw"></i><span>plans</span></a></li>
+
+
+                </ul>
+
+        </div>
+        <div class="dash">
+                <div class="top">
+                        <div class="search-icon"> 
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                                 <input type="search" placeholder="Type A Keyword">
+                        </div>
+                        <div class="avatar">
+                                <span class="notification">
+                                        <i class="fa-regular fa-bell fa-lg"></i>
+                                </span>
+                                <img src="avatar.png" alt="">
+                        </div>
+
+                </div>
+                <div class="dashboard-content">
+                        <div class="title">
+                        <h1>Dashboard</h1>
+
+                        </div>
+                        <div class="boxes">
+                                <div class="welcome-box">
+                                        <div class="head-welcome">
+                                                <div class="welcome">
+                                                <h3>Welcome</h3>
+                                                <span>Mohamed</span>
+                                                </div>
+                                                <div class="welcome-image">
+                                                <img src="welcome.png" alt="">
+                                                 </div>    
+                                        </div>
+                                     
+                                        <img src="avatar.png" alt="" class="avatar2">
+                                        <div class="content">
+                                                <div class="text">
+                                                        <h3>Mohamed abdelwahab</h3>
+                                                        <span>Developer</span>
+                                                </div>
+                                                <div class="text">
+                                                        <h3>80</h3>
+                                                        <span>Projects</span>
+                                                </div>
+                                                <div class="text">
+                                                        <h3>$8500</h3>
+                                                        <span>Earned</span>
+                                                </div>
+                                         </div>
+                                         <div class="profile">
+                                                <a href="#profile.html">profile</a>
+                                         </div>
+                                        
+
+                                </div>                
+                                <div class="box-draft">
+                                        <div class="content">
+                                                 <h2>Quick draft</h2>
+                                        <p>Write A Draft For Your Ideas</p>
+                                        <input type="text" placeholder="Title">
+                                        <textarea name="" id="" placeholder="Your Thought"></textarea>
+                                        <div class="profile">
+                                                <a href="#">save</a>
+                                        </div>
+                                       
+                                         </div>
+
+                                </div>
+                                <div class="box-target">
+                                        <div class="title">
+                                                <h2>Yearly Targets</h2>
+                                                <p>targets of the year</p>
+                                        </div>
+                                        <div class="dollar">
+                                                <i class="fa-solid fa-dollar-sign fa-lg c-blue"></i>
+                                                <div class="details">
+
+                                                        <span>Money</span>
+                                                        <span>$20.000</span>
+                                                        <div class="rate"></div>
+
+                                                </div>
+
+                                        </div>
+                                        <div class="project">
+                                                <i class="fa-solid fa-code fa-lg c-orange"></i>
+                                                <div class="details">
+                                                        <span>Projects</span>
+                                                        <span>24</span>
+                                                        <div class="rate"></div>
+                                                </div>
+                                        </div>
+                                        <div class="team">
+                                                <i class="fa-solid fa-user fa-lg c-green"></i>
+                                                <div class="details">
+                                                        <span>Team</span>
+                                                        <span>12</span>
+                                                        <div class="rate"></div>
+                                                </div>
+                                        </div>
+                                </div>
+                                <div class="box-tickets">
+
+                                        <div class="title">
+                                                <h2>Tickets Statistics</h2>
+                                                <p>Everything About Support Tickets</p>
+                                        </div>
+                                        <div class="cards">
+                                                <div class="card first" >
+                                                        <i class="fa-regular fa-rectangle-list fa-2x mb-10 c-orange"></i>
+                                                        <span>2500</span>
+                                                        <span>Total</span>
+                                                </div>
+                                                <div class="card second">
+                                                        <i class="fa-solid fa-spinner fa-2x mb-10 c-blue"></i>
+                                                        <span>500</span>
+                                                        <span>Pending</span>
+                                                </div>
+                                      
+                                      
+                                                <div class="card third">
+                                                        <i class="fa-regular fa-circle-check fa-2x mb-10 c-green"></i>
+                                                        <span>1900</span>
+                                                        <span>Closed</span>       
+                                                </div>
+                                                <div class="card fourth">
+                                                        <i class="fa-regular fa-rectangle-xmark fa-2x mb-10 c-red"></i>
+                                                        <span>100</span>
+                                                        <span>Deleted</span>
+                                                </div>
+                                        </div>
+
+                                </div>
+                                <div class="box-news">
+
+                                        <div class="title">
+                                                <h2>Latest News</h2>
+                                        </div>
+                                                <div class="flex">
+                                                                <div class="image">
+                                                                        <img src="news-01.png" alt="">
+                                                                </div>
+                                                                <div class="text">
+                                                                        <h3>Created SASS Section</h3>
+                                                                        <p>New SASS Examples & Tutorials</p>
+                                                                </div>
+                                                                <div class="span">
+                                                                        8 Days Ago
+                                                                      </div>
+                                                </div>
+                                                <div class="flex">
+                                                        <div class="image">
+                                                                <img src="news-02.png" alt="">
+                                                        </div>
+                                                                <div class="text">
+                                                                        <h3>Changed The Design</h3>
+                                                                        <p>A Brand New Website Design</p>
+                                                                </div>
+                                                               <div class="span">
+                                                                 3 Days Ago
+                                                               </div>
+                                                </div>
+                                                <div class="flex">
+                                                        <div class="image">
+                                                                <img src="news-03.png" alt="">
+                                                        </div>
+                                                                <div class="text">
+                                                                        <h3>Team Increased</h3>
+                                                                        <p>3 Developers Joined The Team</p>
+                                                                </div>
+                                                                <div class="span">
+                                                                        5 Days Ago
+                                                                      </div>
+                                                </div>
+                                                <div class="flex">
+                                                        <div class="image">
+                                                                <img src="news-04.png" alt="">
+                                                        </div>
+                                                                <div class="text">
+                                                                        <h3>Added Payment Gateway</h3>
+                                                                        <p>Many New Payment Gateways Added</p>
+                                                                </div>
+                                                                <div class="span">
+                                                                        7 Days Ago
+                                                                      </div>
+                                                </div>
+                                </div>
+                                <div class="box-tasks">
+                                        <div class="title">
+                                                <h2>Latest Tasks</h2>
+                                        </div>
+                                        <div class="flex">
+                                                
+                                                        <div class="text">
+                                                                <h3>Record One New Video</h3>
+                                                                <p>Record Python Create Exe Project</p>
+                                                        </div>
+                                                        <div class="icon">
+                                                                <i class="fa-regular fa-trash-can delete"></i>
+                                                              </div>
+                                        </div>
+                                        <div class="flex">
+                                                
+                                                <div class="text">
+                                                        <h3>Write Article</h3>
+                                                        <p>Write Low Level vs High Level Languages</p>
+                                                </div>
+                                                <div class="icon">
+                                                        <i class="fa-regular fa-trash-can delete"></i>
+                                                      </div>
+                                </div>
+                                <div class="flex">
+                                                
+                                        <div class="text">
+                                                <h3>Finish Project</h3>
+                                                <p>Many New Payment Gateways Added</p>
+                                        </div>
+                                        <div class="icon">
+                                                <i class="fa-regular fa-trash-can delete"></i>
+                                              </div>
+                        </div>
+                        <div class="flex">
+                                                
+                                <div class="text">
+                                        <h3>Attend The Meeting</h3>
+                                        <p>Attend The Project Business Analysis Meeting</p>
+                                </div>
+                                <div class="icon">
+                                        <i class="fa-regular fa-trash-can delete"></i>
+                                      </div>
+                </div>
+                <div class="flex">
+                                                
+                        <div class="text">
+                                <h3>Finish Lesson</h3>
+                                <p>Many New Payment Gateways Added</p>
+                        </div>
+                        <div class="icon">
+                                <i class="fa-regular fa-trash-can delete"></i>
+                              </div>
+                         </div>  
+                        </div>
+
+                                     <div class="box-search">
+
+                                        <div class="title">
+                                                <h2>Top Search Items</h2>
+                                        </div>
+                                        <div class="flex-special special">
+                                                <div class="text">
+                                                        <p>Keyword</p>
+                                                                              
+                                                            </div>
+                                                   
+                                                        
+                                                         <p class="right-p">Search Count</p>
+                                                       
+                                                            
+                                        </div>
+                                        <div class="flex-special">
+                                                
+                                                <div class="text">
+                                                     <h3>Programing</h3>
+                                                                           
+                                                         </div>
+                                                <div class="span">
+                                                  70
+                                                         </div>
+                                                 </div>
+                                                 <div class="flex-special">
+                                                
+                                                        <div class="text">
+                                                             <h3>JavaScript</h3>
+                                                                                   
+                                                                 </div>
+                                                        <div class="span">
+                                                          40
+                                                                 </div>
+                                                         </div>
+                                                         <div class="flex-special">
+                                                
+                                                                <div class="text">
+                                                                     <h3>PHP</h3>
+                                                                                           
+                                                                         </div>
+                                                                <div class="span">
+                                                                  130
+                                                                         </div>
+                                                                 </div>
+                                                                 <div class="flex-special">
+                                                
+                                                                        <div class="text">
+                                                                             <h3>Code</h3>
+                                                                                                   
+                                                                                 </div>
+                                                                        <div class="span">
+                                                                          145
+                                                                                 </div>
+                                                                         </div>
+                                                                         <div class="flex-special">
+                                                
+                                                                                <div class="text">
+                                                                                     <h3>Design</h3>
+                                                                                                           
+                                                                                         </div>
+                                                                                <div class="span">
+                                                                                  110
+                                                                                         </div>
+                                                                                 </div>
+                                           <div class="flex-special">
+                                                
+                                                    <div class="text">
+                                    <h3>Logic</h3>
+                                                                                                                   
+                                             </div>
+                                         <div class="span">
+                                                 95
+                                              </div>
+                                        </div>
+                                         
+                                                
+                                                                            
+
+                                     </div> 
+                                     <div class="box-uploads">
+                                        <div class="title">
+                                                <h2>Latest Uploads</h2>
+                                        </div>
+                                        <div class="flex-special">
+                                                <div class="image">
+                                                        <img src="pdf.svg" alt="">
+                                                </div>
+                                                        <div class="text">
+                                                                <h3>my-file.pdf</h3>
+                                                                <p>Mohamed</p>
+                                                        </div>
+                                                        <div class="span">
+                                                                2.9mb
+                                                               </div>
+                                                        </div> 
+                                                        <div class="flex-special">
+                                                                <div class="image">
+                                                                        <img src="avi.svg" alt="">
+                                                                </div>
+                                                                        <div class="text">
+                                                                                <h3>My-Video-File.avi</h3>
+                                                                                <p>Admin</p>
+                                                                        </div>
+                                                                        <div class="span">
+                                                                                4.9mb
+                                                                               </div>
+                                                                        </div> 
+                                                        <div class="flex-special">
+
+                                                         <div class="image">
+                                                                 <img src="psd.svg" alt="">
+                                                         </div>
+                                                        <div class="text">
+                                                         <h3>My-Psd-File.pdf</h3>
+                                                        <p>Abdelwahab</p>
+                                                        </div>
+                                                <div class="span">
+                                                         7.9mb
+                                                        </div>
+                                                            </div> 
+                                             <div class="flex-special">
+                                                <div class="image">
+                                                    <img src="zip.svg" alt="">
+                                                </div>
+                                                        <div class="text">
+                                                                <h3>My-Zip-File.pdf</h3>
+                                                                <p>User</p>
+                                                        </div>
+                                                        <div class="span">
+                                                                8.9mb
+                                                               </div>
+                                                        </div> 
+                                                        <div class="flex-special">
+                                                                <div class="image">
+                                                                    <img src="dll.svg" alt="">
+                                                                </div>
+                                                                        <div class="text">
+                                                                                <h3>My-DLL-File.pdf</h3>
+                                                                                <p>Admin</p>
+                                                                        </div>
+                                                                        <div class="span">
+                                                                                4.9mb
+                                                                               </div>
+                                                          </div>
+                                                       <div class="flex-special">
+                                                        <div class="image">
+                                                                 <img src="eps.svg" alt="">
+                                                                                </div>
+                                                                             <div class="text">
+                                                                                  <h3>My-Eps-File.pdf</h3>
+                                                                                    <p>Designer</p>
+                                                                                        </div>
+                                                                        <div class="span">
+                                                                                                8.9mb
+                                                                                               </div>
+                                                                                        </div>
+                                     </div>
+                                     <div class="box-last-project">
+                                        <div class="title">
+                                                <h2>Last Project Progress</h2>
+                                        </div>
+                                        <div class="content">
+                                                <ul>
+                                                <li>Got The Project</li>
+                                                <li>Started The Project</li>
+                                                <li>The Project About To Finish</li>
+                                                <li>Test The Project</li>
+                                                <li>Finish The Project & Get Money</li>
+                                        </ul>
+                                        <div class="image">
+                                                <img src="project.png" alt="">
+                                        </div>
+
+                                        </div>
+                                        
+                                     </div>   
+                 <div class="box-reminders">
+                        <div class="title">
+                        
+                                <h2>Reminders</h2>
+                        </div>
+                 <div class="remider one">
+                              <div class="text">
+                                     <p>Check My Tasks List</p>
+                                  </div>
+                   <div class="time-history">
+                           <span>28/09/2022 - 12:00am</span>
+                          </div>
+                        </div>
+                         <div class="remider two">
+                             <div class="text">
+                                     <p>Check My Projects</p>
+                                   </div>
+                           <div class="time-history">
+                                          <span>26/10/2022 - 12:00am</span>
+                                  </div>
+                                 </div>
+                                 <div class="remider there">
+                                               <div class="text">
+                                                 <p>Call All My Clients</p>
+                                               </div>
+                                 <div class="time-history">
+                                       <span>05/11/2022 - 12:00am</span>
+                                            </div>
+                                 </div>
+                                           <div class="remider four">
+                                                  <div class="text">
+                                                        <p>Finish The Development Workshop</p>
+                                                         </div>
+                                               <div class="time-history">
+                                                       <span>20/12/2022 - 12:00am</span>
+                                                       </div>
+                                                </div>
+                                     </div> 
+                                  
+                              
+                                     
+                                     <div class="box-latest-post">
+
+                                        <div class="title">
+                                                <h2>Latest Post</h2>
+                                        </div>
+                                        <div class="top-conent">
+                                                <div class="image">
+                                                         <img src="avatar.png" alt=""> 
+                                                </div>
+                                            
+                                              <div class="text">
+                                                <span>Mohamed Abdelwahab</span>
+                                                <span>About 3 Hours Ago</span>
+                                              </div>
+                                              </div>
+                                              
+                                              <div class="middle">
+                                                <p>You Can Fool All Of The People Some Of The Time, And Some Of The People All Of The Time, But You Can't Fool All Of The People All Of The Time.</p>
+                                              </div>
+                                              <div class="end">
+                                                <div class="left">
+                                                        <i class="fa-regular fa-heart"></i>
+                                                        <span>1.8k</span>
+                                                </div>
+                                                <div class="right">
+                                                        <i class="fa-regular fa-comments"></i>
+                                                        <span>500</span>
+                                                </div>
+                                              </div>
+                                        </div>
+                                        <div class="box-social-state">
+                                                <div class="title">
+                                                        <h2>Social Media Stats</h2>
+                                                </div>
+                                                <div class="twiter">
+                                                        <i class="fa-brands fa-twitter fa-2x c-white h-full center-flex"></i>
+                                                        <span>90K Followers</span>
+                                                        <button>Follow</button>
+                                                </div>
+                                                <div class="Facebook">
+                                                        <i class="fa-brands fa-facebook-f fa-2x c-white h-full center-flex"></i>
+                                                        <span>2M Like</span>
+                                                        <button>Like</button>
+                                                </div>
+                                                <div class="youtube">
+                                                <i class="fa-brands fa-youtube fa-2x c-white h-full center-flex"></i>
+                                                        <span>1M Subs</span>
+                                                        <button>Subscribe</button>
+                                                </div>
+                                                <div class="linked-in">
+                                                        <i class="fa-brands fa-linkedin fa-2x c-white h-full center-flex"></i>
+                                                        <span>70K Followers</span>
+                                                        <button>Follow</button>
+                                                </div>
+                                        </div> 
+                                       <div class="box-table">
+                                                <div class="title">
+                                                        <h2>Projects</h2>
+                                                </div>
+                                                <div class="table_body">
+                                                                 <table>
+                                                        <thead>
+                                                  <tr>
+                                                          <td>Name</td>
+                                                          <td>Finish Date</td>
+                                                          <td>Client</td>
+                                                          <td>Price</td>
+                                                          <td>Team</td>
+                                                          <td>Status</td>
+                                                 </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                                <tr>
+                                                                    <td>Ministry Wikipedia</td>
+                                                                <td>10 May 2022</td>
+                                                                <td>Ministry</td>
+                                                                <td>$5300</td>
+                                                                <td>
+                                                                        <div class="img">
+                                                                                <img src="team-01.png" alt="">
+                                                                        <img src="team-02.png" alt="">
+                                                                        <img src="team-03.png" alt="">
+                                                                        <img src="team-04.png" alt=""> 
+                                                                        </div>
+                                                                       
+                                                                </td> 
+                                                                <td class="Pending">
+                                                                        <span>Pending</span>
+                                                                </td>      
+                                                                </tr>
+                                                                <tr>
+                                                                        <td>Mohamed Shop</td>
+                                                                    <td>12 Oct 2021</td>
+                                                                    <td>Mohamed Company</td>
+                                                                    <td>$1500</td>
+                                                                    <td>
+                                                                        <div class="img">
+                                                                             <img src="team-01.png" alt="">
+                                                                        <img src="team-02.png" alt="">
+                                                                        <img src="team-03.png" alt="">    
+                                                                        </div>
+                                                                       
+                                                                    </td> 
+                                                                    <td class="Progress">
+                                                                        <span>Progress</span>
+                                                                    </td>      
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>
+                                                                                Bouba App
+                                                                        </td>
+                                                                    <td>
+                                                                        05 Sep 2021
+                                                                    </td>
+                                                                    <td>
+                                                                        Bouba
+                                                                    </td>
+                                                                    <td>
+                                                                        $800
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="img">
+                                                                              <img src="team-01.png" alt="">
+                                                                        <img src="team-02.png" alt="">  
+                                                                        </div>
+                                                                        
+                                                                    </td> 
+                                                                    <td class="Completed">
+                                                                        <span>Completed</span>
+                                                                    </td>      
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>
+                                                                                Mahmoud Website
+                                                                        </td>
+                                                                    <td>
+                                                                        22 May 2021
+                                                                    </td>
+                                                                    <td>
+                                                                        Mohamed
+                                                                    </td>
+                                                                    <td>$600</td>
+                                                                    <td>
+                                                                        <div class="img">
+                                                                              <img src="team-02.png" alt="">
+                                                                        <img src="team-03.png" alt="">  
+                                                                        </div>
+                                                                        
+                                                                    </td> 
+                                                                    <td class="Completed">
+                                                                        <span>Completed</span>
+                                                                    </td>      
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>
+                                                                                Sayed Website
+                                                                        </td>
+                                                                    <td>
+                                                                        24 May 2021
+                                                                    </td>
+                                                                    <td>Sayed</td>
+                                                                    <td>
+                                                                        $300
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="img">
+                                                                         <img src="team-04.png" alt="">
+                                                                        <img src="team-05.png" alt="">
+                                                                        </div>
+                                                                        
+                                                                    </td> 
+                                                                    <td class="Rejected">
+                                                                       <span>Rejected</span> 
+                                                                </td>      
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>
+                                                                                Arena Application
+                                                                        </td>
+                                                                    <td>
+                                                                        01 Mar 2021
+                                                                    </td>
+                                                                    <td>
+                                                                        Arena Company
+                                                                    </td>
+                                                                    <td>
+                                                                        2600$
+                                                                    </td>
+                                                                    <td>
+                                                                        <div class="img">
+                                                                                <img src="team-01.png" alt="">
+                                                                        <img src="team-02.png" alt="">
+                                                                        <img src="team-03.png" alt="">
+                                                                        <img src="team-04.png" alt="">
+                                                                        </div>
+                                                                        
+                                                                    </td> 
+                                                                    <td class="Completed">
+                                                                        <span>Completed</span>
+                                                                    </td>      
+                                                                    </tr>
+                                                                  
+                                                                </tbody>
+                                        
+                                                        </table>   
+                                                </div>
+                                    
+                                        </div>
+                                    
+                                </div> 
+                                     
+                                </div>
+                              
+                                </div>
+                               
+                                </div>
+                              
+                        </div>
+                </div>
+        </div>
+
+    </div>
+</body>
+</html>
